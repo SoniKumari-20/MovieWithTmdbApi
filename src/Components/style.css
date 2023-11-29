@@ -1,0 +1,71 @@
+.categories_list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100px ;
+  /* border: 1px solid red; */
+}
+div.MuiPaper-root-MuiCard-root {
+  height: max-content;
+  width: 20px;
+}
+.button_show {
+  font-size: x-small;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border-radius: 20px 2px;
+}
+.Card_onHover:hover {
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 1px rgba(62, 13, 53, 255);
+}
+.tv_and_movies_banners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+  height: 40px;
+  background-color: #552222;
+  color: white;
+  font-weight: 600;
+}
+Button:hover {
+  background-color: #fff;
+  color: white;
+}
+.footer {
+  /* border: 1px solid burlywood; */
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  letter-spacing: 0.7px;
+}
+.footerItems{
+  margin: 2%;
+  width: 25%;
+  align-content: flex-start;
+  font-size: 9px;
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+div.MuiTypography-root{
+  text-align: left;
+} 
+.icons{
+    border:1px solid white;
+    border-radius: 50%;
+    font-size: small;
+    padding: 2px;
+    margin-right: 5px;
+}
+hr.MuiDivider-root{
+  background-color: white;
+}
